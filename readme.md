@@ -1,3 +1,27 @@
+# memo
+
+### setup
+
+```
+python3 -m pip install --user qmk
+```
+
+```
+qmk setup
+```
+
+
+### build
+
+```
+make stront/40keys:vial
+```
+
+```
+qmk compile -kb stront/40keys -km vial
+```
+
+
 # Quantum Mechanical Keyboard Firmware
 
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)
